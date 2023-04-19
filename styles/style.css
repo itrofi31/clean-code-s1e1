@@ -55,7 +55,7 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: inherit;
   cursor: pointer;
 }
 .btn:hover {
@@ -77,11 +77,12 @@ button {
   font-size: 18px;
   line-height: 18px;
   height: 21px;
+  width: 226px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: inherit;
   color: #888;
 }
 .input--text:focus {
@@ -103,7 +104,6 @@ button {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,9 +119,6 @@ button {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
-}
-.input--text {
   width: 226px;
 }
 .remove-icon {
